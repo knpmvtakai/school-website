@@ -1,16 +1,17 @@
 body {
-    font-size: 120px;
+    background-colour:skyblue;
+    font-size: 20px;
 }
 h1 {width: 100%;
-    font-size: 400px;
+    font-size: 80px;
     font-family: 'Bakbak One', cursive;
 }
 h4 {
     width: 100%;
     font-family: 'Bakbak One', cursive;
-    font-size: 200px;
+    font-size: 40px;
 }
-td {font-size: 120px;
+td {font-size: 20px;
     font-family: 'Khand', sans-serif;
 }
     
