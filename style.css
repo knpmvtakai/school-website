@@ -1,0 +1,177 @@
+/* Global Styles */
+body {
+	font-family: 'Mukta', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+   
+main{
+	background-color: #FFEE82;
+	margin: 0;
+	text-align: center;
+}
+
+
+a {
+	text-decoration: none;
+	color: #B31313;
+}
+
+
+.nav-options:hover{
+	background-color: #FDDA16;
+	color: #B31313;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.container-fluid {
+	margin: 0 auto;
+	padding: 0 80px;
+}
+
+/* Header Styles */
+#title {
+	background-color: #B31313;
+	padding: 20px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #333;
+	padding: 40px auto;
+}
+
+.nav-item{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+
+.nav-options{
+	font-size: 1.5rem;
+	padding: 2px 18px;
+	border: solid 1px;
+	border-color: #FDDA16;
+}
+
+
+
+.navbar-brand{
+	padding: 0;
+	text-align: center;
+	align-items: center;
+}
+
+#header{
+	background-color: #FF9000;
+}
+nav ul {
+	justify-content: end;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FDDA16;
+}
+
+/* Main Styles */
+main {
+	margin: 0;
+}
+
+.navbar-collapse{
+	flex-grow: 0;
+}
+
+section h2 {
+	font-size: 24px;
+	margin: 10px;
+}
+
+.section ul {
+	margin-left: 20px;
+}
+
+.features{
+	padding: 40px 200px;
+}
+
+.programs{
+	background-color: #FF9000;
+	padding: 40px 0;
+}
+
+
+.button {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+p{
+	font-size: 1.5rem;
+}
+
+.programs{
+	font-size: 1.5rem;
+}
+/* Footer Styles */
+footer {
+	background-color: #B31313;
+	color: #fff;
+	padding: 20px;
+}
+
+.footer-text{
+	font-size: 1rem;
+	text-align: center;
+}
+
+/* Teacher's Section */
+
+.teachers-img{
+	display: block;
+	width: 100%;
+}
+
+.teachers{
+	align-items: center;
+}
+
+.bio{
+	text-align: left;
+	line-height: 1;
+}
+
+.teachers-container{
+	margin: 3% 2% 2% 0;
+}
+
+
+/* Mobile Optimisation */
+
+@media (max-width: 800px) {
+.teachers-img {
+	align-items: center;
+}
+}
+
